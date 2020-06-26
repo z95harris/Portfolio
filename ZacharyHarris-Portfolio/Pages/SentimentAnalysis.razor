@@ -1,0 +1,38 @@
+﻿@page "/sentimentanalysis"
+@using ZacharyHarris_PortfolioML.Model
+
+<h1>Sentiment Analysis</h1>
+
+<input @bind-value="input" />
+<br/>
+<button class="btn btn-primary" @onclick="GetSentiment">Analyze</button>
+<p>Sentiment: @output</p>
+<p>Score: @score</p>
+
+
+
+@code {
+    private string output;
+    private string input { get; set; }
+    private float score;
+
+    private void GetSentiment()
+    {
+        ModelInput modelIntput = new ModelInput();
+        modelIntput.SentimentText = input;
+
+        ModelOutput result = ConsumeModel.Predict(modelIntput);
+        if (result.Prediction)
+        {
+            output = "Toxic comment!";
+        }
+        else
+        {
+            output = "That comment is not toxic.";
+        }
+
+        score = result.Score;
+
+
+    }
+}

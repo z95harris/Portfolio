@@ -1,0 +1,78 @@
+﻿{
+   "ContextClassName": "NorthwindsContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Data\\EndtoEnd",
+   "ProjectRootNamespace": "ZacharyHarris_Portfolio",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.categories"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.customercustomerdemo"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.customerdemographics"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.customers"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.employees"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.employeeterritories"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.order_details"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.orders"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.products"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.region"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.shippers"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.shippers_tmp"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.suppliers"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.territories"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
